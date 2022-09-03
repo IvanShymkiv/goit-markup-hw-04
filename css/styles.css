@@ -216,17 +216,16 @@ img {
   gap: 30px;
 }
 
-.about-icon {
+.about-link {
+  display: flex;
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
-  display: flex;
   align-items: center;
   justify-content: center;  
   border-radius: 4px;
   margin-bottom: 30px;
   
-
 }
 
 .about-title {
