@@ -6,7 +6,7 @@
   /* colors */
   --main-txt-cl: #212121;
   --light-txt-cl: #757575;
-  --other-txt-cl: #ffffff;
+  --light-txt-cl: #ffffff;
   --accent-txt-cl: #2196f3;
   --gray-icon-cl: #afb1b8;
 
@@ -480,7 +480,67 @@ img {
 
 .ft-social-icon {
   fill: currentColor;
+
 }
+
+/*
+    |============================
+    |Modal window
+    |============================
+  */
+
+.beckdrop {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+
+
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 528px;
+  height: 581px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+   0px 1px 1px rgba(0, 0, 0, 0.14),
+   0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.modal-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--other-txt-cl);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  cursor: pointer;
+
+}
+
+
+
+
+
 
 /*
     |*********************************************************
